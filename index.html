@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link class="styles-dark" id="styles" rel="stylesheet" href="dark.css">    
-    <title>Dark/Light</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Andrés Felipe Delgado - Dark/Light</title>
   </head>
   <body>
     <div class="container-toggle">
       <!-- 1. Crear un Toggle Button en una etiqueta button. -->
-      <img class="img-on" id="img-on-off" src="off.png" alt="off">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="label">
+        <label class="form-check-label" for="label"></label>
+      </div>
     </div>
     <div class="container-phone">
       <h1>My cellphone</h1>
       <hr />
-      <img id="img-light" class="img-light" src="imgLight.jpg" alt="img-light" />
+      <img
+        id="img-light"
+        class="img-light"
+        src="./assets/img/imgLight.jpg"
+        alt="img-light"
+      />
       <p id="description"></p>
       <div class="social-networks">
-        <img class="networks" src="Networks.png" alt="fb" >
-        <img class="networks" src="instagram.png" alt="ig" >
-        <img class="networks" src="whatsapp.png" alt="wsp" >
+        <img class="networks" src="./assets/img/Networks.png" alt="fb" />
+        <img class="networks" src="./assets/img/instagram.png" alt="ig" />
+        <img class="networks" src="./assets/img/whatsapp.png" alt="wsp" />
       </div>
-    </div>    
+    </div>
   </body>
   <script src="app.js"></script>
 </html>
