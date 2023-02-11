@@ -1,3 +1,5 @@
+let author = 'Mateo Henao Martinez';
+
 // Por medio de javascript daremos el efecto de cambio de botón en el toggle, cambiando la imagen.
 // * creo una variable y por medio de ella identifico la imagen dentro del botón que viene del HTML.
 const btnOnOff = document.querySelector('#img-on-off');
