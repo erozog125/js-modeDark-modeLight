@@ -69,21 +69,19 @@ h1 {
 }
 
 hr {
+  margin: 0.3rem;
   width: 80%;
-  margin-top: 0.2rem;
 }
 
 .img-light {
   width: 80%;
-  height: 72%;
-  margin-top: 1rem;
+  height: 68%;
 }
 
 .social-networks {
   width: 80%;
   height: 3rem;
   background-color: var(--social-networks) ;
-  margin-top: 0.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
