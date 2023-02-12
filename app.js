@@ -40,6 +40,8 @@ function changeToMode() {
     styles.classList.add('styles-dark')
     imgCellphone.src = './imgLight.jpg'
     console.log(styles);
+
+    
   }
 }
 
