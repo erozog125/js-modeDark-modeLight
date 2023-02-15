@@ -1,26 +1,27 @@
-/*// Por medio de javascript daremos el efecto de cambio de botón en el toggle, cambiando la imagen.
-// * creo una variable y por medio de ella identifico la imagen dentro del botón que viene del HTML.
-const btnOnOff = document.querySelector('#img-on-off');
-//Aplico al botón AddEventListener para que haga la función de encender y apagar el switch(toggle button) .
-btnOnOff.addEventListener('click',turnOnOff);
-//Creo la función turnOnOff
+//By means of javascript we will give the effect of changing the image
+//create a variable and through it identified the image inside the button that comes from the html
+const btnOnOff = document.querySelector("#btnOnOff");
+//I apply an event to the button so that it obtains the function of turning the switch on and off
+btnOnOff.addEventListener('click', turnOnoff);
+//I create the function turnOnOff
 function turnOnOff() {
-  //Reemplazo la imagen del botón, aplicando una condición para que sea dinámico.}
-  // console.log(btnOnOff.classList);
-  // console.log(btnOnOff.classList[0]);
+  //I replace the image of the button,applying a condition to make it dynamic
+  console.log(btnOnOff.classList);
+  console.log(btnOnOff.classList[0]);
   if (btnOnOff.classList[0] === 'img-on') {
     btnOnOff.src = 'on.png';
     btnOnOff.classList.remove('img-on');
-    btnOnOff.classList.add('img-off');    
+    btnOnOff.classList.add('img-off');
   } else {
     btnOnOff.src = 'off.png'
     btnOnOff.classList.remove('img-off');
     btnOnOff.classList.add('img-on');
   }
-  changeToMode();    
+  changeToMode();
 }
+/*
+{// Antes del punto 5, debo llamar los objetos que requiero.
 
-// Antes del punto 5, debo llamar los objetos que requiero.
 //Para efectos de este ejercicio lo voy a llamr desde acá.
 const styles = document.getElementById('styles');
 const imgCellphone = document.getElementById('img-light');
@@ -43,6 +44,3 @@ function changeToMode() {
   }
 }
 */
-//By means of javascript we will give the effect of changing the image
-//create a variable and through it identified the image inside the button that comes from the html
-const btnOnOff = document.querySelector("#btnOnOff");
