@@ -9,30 +9,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2e2a2a;
+  background-color: #2b1b1b;
 }
 
-.container-toggle {
+.containerToggle {
   width: 100%;
   height: 5rem;
-  background-color: #382524;
+  background-color: #311818;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#img-on-off {
-  width: 4.5rem;
+#imgOnOff {
+  width: 4rem;
   height: 4rem;
   cursor: pointer;
   background: none;
+
 }
 
-.container-phone {
+.containerCellphone {
   width: 18rem;
   height: 28rem;
-  border: groove 15px #8c8585;
-  box-shadow: 0 0 5px #ffd700;
+  border: groove 15px #17bb01;
+  box-shadow: 0 0 5px #0cf789;
   border-radius: 15px;
   margin-top: 5rem;
   display: flex;
@@ -42,7 +43,7 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: #b4c5f5;
 }
 
 hr {
@@ -50,13 +51,13 @@ hr {
   margin-top: 0.2rem;
 }
 
-.img-light {
+.imgDark {
   width: 80%;
   height: 72%;
   margin-top: 1rem;
 }
 
-.social-networks {
+.containerNetworks {
   width: 80%;
   height: 3rem;
   background-color: #210901;
@@ -66,7 +67,7 @@ hr {
   align-items: center;
 }
 
-.networks {
+.Networks {
   width: 2rem;
   height: 2rem;
 }

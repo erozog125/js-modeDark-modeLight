@@ -1,34 +1,34 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #2e2a2a;
-  }
-  
-  .containerToggle {
+}
+
+.containerToggle {
     width: 100%;
     height: 5rem;
     background-color: #382524;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  #imgOnOff {
-    width: 0.2rem;
-    height: 1rem;  
+}
+
+#imgOnOff {
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
-    background: none;    
-  }
-  
-  .containerCellphone {
+    background: none;
+}
+
+.containerCellphone {
     width: 18rem;
     height: 28rem;
     border: groove 15px #8c8585;
@@ -39,24 +39,24 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient(45deg, #171818, #12161a, #171818);
-  }
-  
-  h1{
+}
+
+h1 {
     color: #fff;
-  }
-  
-  hr {
+}
+
+hr {
     width: 80%;
     margin-top: 0.2rem;
-  }
-  
-  .imgLight {
+}
+
+.imgLight {
     width: 80%;
     height: 72%;
     margin-top: 1rem;
-  }
-  
-  .containerNetworks {
+}
+
+.containerNetworks {
     width: 80%;
     height: 3rem;
     background-color: #210901;
@@ -64,11 +64,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-  
-  .Networks {
+}
+
+.Networks {
     width: 2rem;
     height: 2rem;
-  }
-  
-  
+}
