@@ -2,7 +2,7 @@
 //create a variable and through it identified the image inside the button that comes from the html
 const btnOnOff = document.querySelector("#btnOnOff");
 //I apply an event to the button so that it obtains the function of turning the switch on and off
-btnOnOff.addEventListener('click', turnOnoff);
+btnOnOff.addEventListener('click', turnOnOff);
 //I create the function turnOnOff
 function turnOnOff() {
   //I replace the image of the button,applying a condition to make it dynamic
@@ -22,7 +22,7 @@ function turnOnOff() {
 // before further, i must call the objects that i need
 // the purposes of this exercise i will call it from here
 const styles = document.getElementById('styles');
-const imgCellphone = document.getElementById('img-light');
+const imgCellphone = document.getElementById('imgLight');
 //create a function that is in charge of choosing the style sheet to use
 function changeToMode() {
   //we will create a control that helps us decide which style sheet to use

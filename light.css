@@ -21,7 +21,7 @@
     align-items: center;
   }
   
-  #imgonoff {
+  #imgOnOff {
     width: 4.5rem;
     height: 4rem;  
     cursor: pointer;
@@ -56,7 +56,7 @@
     margin-top: 1rem;
   }
   
-  .Networks {
+  .containerNetworks {
     width: 80%;
     height: 3rem;
     background-color: #210901;
