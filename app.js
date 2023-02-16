@@ -19,22 +19,21 @@ function turnOnOff() {
   }
   changeToMode();
 }
-/*
-{// Antes del punto 5, debo llamar los objetos que requiero.
-
-//Para efectos de este ejercicio lo voy a llamr desde acá.
+// before further, i must call the objects that i need
+// the purposes of this exercise i will call it from here
 const styles = document.getElementById('styles');
 const imgCellphone = document.getElementById('img-light');
-// 5. Crear una función que se encargue de elegir la hoja de estilos a utilizar
+//create a function that is in charge of choosing the style sheet to use
 function changeToMode() {
-  // 6. Crearemos un control que nos ayude a decidir cuál hoja de estilos utilizar.
-  // Todo es cuestión de utilizar el estilo contrario al que esté asignado de MediaStreamAudioDestinationNode.
+  //we will create a control that helps us decide which style sheet to use
+  //it's all matter of use the opposite style sheet to the one that was assigned from MediaStreamAudioDestinationNode.
   if (styles.classList[0] === 'styles-dark') {
     styles.href = 'dark.css';
     styles.classList.remove('styles-dark')
     styles.classList.add('styles-light')
     imgCellphone.src = './imgDark.jpg'
     console.log(styles);
+
   } else {
     styles.href = 'light.css';
     styles.classList.remove('styles-light')
@@ -43,4 +42,3 @@ function changeToMode() {
     console.log(styles);
   }
 }
-*/
